@@ -1,0 +1,5 @@
+CREATE DATABASE starcat;
+
+CREATE USER cat_admin WITH PASSWORD 'password';
+
+GRANT ALL PRIVILEGES ON DATABASE starcat TO cat_admin;
